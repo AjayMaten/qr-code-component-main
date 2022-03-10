@@ -2,13 +2,13 @@
 body {
   margin: 0;
 }
-.outer {
+
+.container {
   height: 32rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: hsl(212, 45%, 89%);
-  margin: 2rem 1rem;
 }
 .inner {
   background-color: #ffff;
@@ -16,19 +16,17 @@ body {
   height: 28rem;
   border-radius: 5%;
 }
-.img {
+img {
   height: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 0.7rem;
+  margin-left: 0.7rem;
 }
-.text {
+
+h3,
+p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   padding: 0 1.5rem;
-}
-
-.text p {
   font-size: 0.9rem;
   opacity: 0.7;
 }
